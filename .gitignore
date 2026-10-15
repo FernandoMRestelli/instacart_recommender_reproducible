@@ -7,9 +7,9 @@ __pycache__/
 
 # Datos de Instacart sujetos a términos que impiden redistribuirlos
 /data/raw/*
-!/data/raw/README.md
+!/data/raw/.gitkeep
 /data/processed/*
-!/data/processed/README.md
+
 
 # Modelos y ejecuciones locales: revisar procedencia/derechos antes de publicar
 /models/*
