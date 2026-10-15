@@ -1,0 +1,25 @@
+# Entorno, cachés y archivos temporales
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+
+# Datos de Instacart sujetos a términos que impiden redistribuirlos
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+
+# Modelos y ejecuciones locales: revisar procedencia/derechos antes de publicar
+/models/*
+!/models/README.md
+
+# Salidas regenerables (pueden contener registros de los datos)
+/outputs/*
+!/outputs/.gitkeep
+
+# Archivos temporales de SQLite
+/optuna/*.db-journal
+/optuna/*.db-wal
+/optuna/*.db-shm

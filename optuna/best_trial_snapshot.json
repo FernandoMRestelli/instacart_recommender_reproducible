@@ -1,0 +1,22 @@
+{
+  "study_name": "lightgbm_optuna_temporal_NDCG10_v3",
+  "objective": "validation NDCG@10",
+  "direction": "maximize",
+  "seed": 42,
+  "total_trials_snapshot": 32,
+  "best_trial_number": 13,
+  "best_value": 0.528193440713713,
+  "best_params": {
+    "n_estimators": 1461,
+    "learning_rate": 0.01534304587711282,
+    "num_leaves": 187,
+    "max_depth": 199,
+    "min_child_samples": 980,
+    "subsample": 0.8635041511405708,
+    "colsample_bytree": 0.7641099910070214,
+    "reg_alpha": 3.6939226878049173e-06,
+    "reg_lambda": 5.933589762608087e-06,
+    "scale_pos_weight": 1.1813348188158872
+  },
+  "note": "El estudio SQLite es la fuente completa; JSON facilita auditoría y reconstrucción manual."
+}
